@@ -1,5 +1,5 @@
 # 马原、毛概刷题工具
-> 目前马原题库仍有较多问题，亟待修复。
+> 欢迎使用该题库进行二次开发！
 
 本项目为马原、毛概的选择题刷题工具，题目大体按照章节顺序排布。如遇题目缺字、错字等问题，或者有功能上的建议，欢迎提`issue`反馈。
 
@@ -38,12 +38,13 @@ sudo chmod +x ./test
 
 Windows:
 
-使用`git clone git@github.com:jeasonlau/Question-test.git`或点击`Download Zip`下载该仓库
-
 + 拥有`python`环境：
 
-  在仓库根目录下打开`cmd`/`powershell`，输入`python ./test`运行
+  使用`git clone git@github.com:jeasonlau/Question-test.git`或点击`Download ZIP`下载该仓库，在仓库根目录下打开`cmd`/`powershell`，输入`python ./test`运行
 
 + 没有`python`环境：
 
-  下载`release`中的最新版本，放入仓库根目录，双击运行
+  > 注:因本人没有Windows系统，打包可能不及时，版本会稍落后于`master`分支
+  
+  下载`release`中最新版本的`Source code`和`test.exe`，将`test.exe`放入`Source code`的根目录下，双击运行
+
